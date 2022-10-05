@@ -67,6 +67,21 @@
 
 }
 
+/* NAV MAIN */
+
+.nav-main{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-main span{
+    padding: 10px;
+    color: #4e555b;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 /* SIDEBAR */
 
 .top{
