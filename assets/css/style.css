@@ -18,12 +18,13 @@
 }
 
 .cont-1{
-    height: 85%;
+    height: 90%;
 }
 
 .cont-2{
-    height: 15%;
+    height: 10%;
     background-color: #282828;
+    justify-content: space-between;
 }
 
 .sidebar{
@@ -70,7 +71,7 @@
 
 .top{
     flex-direction: column;
-    height: calc(100% - 80px);
+    height: calc(100% - 95px);
 }
 
 /* LOGO */
@@ -113,42 +114,102 @@
 
 .bottom{
     flex-direction: column;
+    background-color: blue;
+    height: 80px;
 }
 
-.fa-circle-down{
-    color: white;
-    font-size: 12px;
-    padding-right: 5px;
+/* CONT-2 FOOTER*/
+
+/* CONTENITORE SINISTRA*/
+.cont-left{
+    border: 1px solid red;
+    flex-basis: 15%;
+    justify-content: space-around;
 }
 
-.border-grey{
-    width: 90%;
-    height: 1px;
-    background-color: #4e555b;
-    margin: 3px 0;
+/* album */
+
+.album{
+    flex-basis: 20%;
+    background-color: aqua;
 }
 
-.user h4{
-    color: white;
+/* album titolo */
+
+.album-title{
+    flex-basis: 50%;
+    background-color: aquamarine;
 }
 
-.user-img{
-    width: 30px;
-    height: 30px;
-    background-color: #4e555b;
-    border-radius: 50%;
-    margin: 5px 5px 5px 0;
-    padding: 2px 5px;
+/* album icone */
+
+.album-icons{
+    flex-basis: 20%;
+    background-color: azure;
 }
 
-.user-img img{
-    height: 23px;
+/* CONTENITORE CENTRALE */
+.cont-centr{
+    border: 1px solid orange;
+    flex-basis: 40%;
+    align-items: center;
 }
 
-.user-name{
-    color: white;
+/* UP */
+.up{
+    background-color: pink;
+    width: 100%;
+    height: 70%;
 }
 
+.menu-icone-centr{
+    justify-content: center;
+   
+}
+
+/* DOWN */
+.down{
+    justify-content: space-between;
+}
+
+.time-left{
+    flex-basis: 10%;
+    background-color: chartreuse;
+}
+
+.time-centr{
+    flex-basis: 60%;
+    background-color: coral;
+}
+
+.time-right{
+    flex-basis: 10%;
+    background-color: cornflowerblue;
+}
+
+/* CONTENITORE DESTRA */
+.cont-right{
+    border: 1px solid red;
+    flex-basis: 15%;
+}
+
+/* ICONS CONTENITORE DESTRA*/
+.menu-icone-right{
+    justify-content: space-between;
+}
+
+.icon1{
+background-color: crimson;
+}
+.icon2{
+    background-color: darkgoldenrod;
+}
+.icon3{
+    background-color: darkred;
+}
+.icon4{
+    background-color: darkorchid;
+}
 
 
 @media  screen and (max-width: 425px) {
