@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex{
@@ -12,29 +15,32 @@
 
 .container{
     height: 100vh;
-    border: 5px solid purple;
 }
 
 .cont-1{
-    border: 4px solid blue;
     height: 85%;
-    
 }
 
 .cont-2{
-    border: 4px solid rgb(240, 30, 255);
     height: 15%;
+    background-color: #282828;
 }
 
 .sidebar{
     flex-basis: 15%;
-    border: 2px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: #4e555b;
+    line-height: 30px;
+    padding-left: 15px;
+}
 
+.sidebar span{
+    display: block;
+    font-size: 14px;
 }
 
 .main{
     flex-basis: 85%;
-    border: 2px solid rgb(255, 0, 0);
     background-color: #141922;
     
 }
@@ -58,5 +64,102 @@
     color: white;
     padding: 12px 35px;
 
+}
+
+/* SIDEBAR */
+
+.top{
+    flex-direction: column;
+    height: calc(100% - 80px);
+}
+
+/* LOGO */
+
+.logo{
+    width: 70%;
+    padding: 15px 15px 15px 0;
+}
+
+/* MENU */
+
+.menu img{
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.menu :first-child{
+    color: white;
+}
+
+/* PLAYLIST */
+
+.playlist{
+    padding-top: 20px;
+}
+
+.playlist :first-child{
+    color: white;
+}
+
+
+.playlist .fa-square-plus{
+    color: #999999;
+    font-size: 40px;
+    padding: 10px 10px 10px 0;
+    vertical-align: middle;
+}
+
+
+.bottom{
+    flex-direction: column;
+}
+
+.fa-circle-down{
+    color: white;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.border-grey{
+    width: 90%;
+    height: 1px;
+    background-color: #4e555b;
+    margin: 3px 0;
+}
+
+.user h4{
+    color: white;
+}
+
+.user-img{
+    width: 30px;
+    height: 30px;
+    background-color: #4e555b;
+    border-radius: 50%;
+    margin: 5px 5px 5px 0;
+    padding: 2px 5px;
+}
+
+.user-img img{
+    height: 23px;
+}
+
+.user-name{
+    color: white;
+}
+
+
+
+@media  screen and (max-width: 425px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
 }
 
