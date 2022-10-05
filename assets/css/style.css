@@ -35,10 +35,28 @@
 .main{
     flex-basis: 85%;
     border: 2px solid rgb(255, 0, 0);
+    background-color: #141922;
     
 }
+/* HEADER */
 
 .header{
-    height: 15%;
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
 }
+
+.but{
+    justify-content: flex-end;
+    margin-right: 2px;
+}
+
+.but button{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 12px 35px;
+
+}
+
