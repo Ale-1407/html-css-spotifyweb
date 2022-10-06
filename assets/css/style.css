@@ -283,21 +283,25 @@ h2{
 
 /* CONTENITORE CENTRALE */
 .cont-centr{
-    border: 1px solid orange;
     flex-basis: 40%;
-    align-items: center;
+    color: white;
 }
 
 /* UP */
-.up{
-    background-color: pink;
-    width: 100%;
-    height: 70%;
-}
 
 .menu-icone-centr{
     justify-content: center;
-   
+    padding-top: 5px;
+}
+
+.menu-icone-centr .fa-solid{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.menu-icone-centr .fa-regular{
+    font-size: 25px;
+    padding: 5px;
 }
 
 /* DOWN */
@@ -305,20 +309,27 @@ h2{
     justify-content: space-between;
 }
 
-.time-left{
-    flex-basis: 10%;
-    background-color: chartreuse;
+.time-left-right{
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 0;
 }
 
 .time-centr{
-    flex-basis: 60%;
-    background-color: coral;
+    margin: auto;
+    width: 80%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2)
 }
 
-.time-right{
-    flex-basis: 10%;
-    background-color: cornflowerblue;
+.time-int{
+    width: 60%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
 }
+
 
 /* CONTENITORE DESTRA */
 .cont-right{
