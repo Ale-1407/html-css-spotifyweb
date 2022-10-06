@@ -57,6 +57,8 @@
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .but{
@@ -129,10 +131,21 @@ h2{
 
 }
 
-.creato-per p{
+.section-title p{
     color: #4e555b;
     font-weight: bold;
     padding-top: 10px;
+}
+
+/* SECTION ARTISTI PIU POPOLARI*/
+
+.box-img2{
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.box-img2 img{
+    width: 100%;
 }
 
 /* SIDEBAR */
