@@ -333,26 +333,28 @@ h2{
 
 /* CONTENITORE DESTRA */
 .cont-right{
-    border: 1px solid red;
     flex-basis: 15%;
 }
 
 /* ICONS CONTENITORE DESTRA*/
 .menu-icone-right{
     justify-content: space-between;
+    color: white;
+    padding: 20px;
 }
 
-.icon1{
-background-color: crimson;
+.menu-icone-right .fa-solid{
+    padding: 8px;
+    font-size: 12px;
 }
-.icon2{
-    background-color: darkgoldenrod;
-}
-.icon3{
-    background-color: darkred;
-}
-.icon4{
-    background-color: darkorchid;
+
+
+.time-right{
+    width: 50%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #4e555b;
+    margin: auto;
 }
 
 
