@@ -116,10 +116,6 @@ h2{
 }
 
 
-   
-
-
-
 /* SIDEBAR */
 
 .top{
@@ -166,8 +162,37 @@ h2{
 
 .bottom{
     flex-direction: column;
-    background-color: blue;
-    height: 50px;
+    margin-bottom: 10px;
+}
+
+.installa img{
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.grey-line{
+    height: 1px;
+    width: 90%;
+    background-color: #4e555b;
+    margin: 10px;
+}
+
+
+.user-profile img{
+    width: 70%;
+}
+
+.user-profile{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #4e555b;
+    text-align: center;
+}
+
+.user-name{
+    color: white;
 }
 
 /* CONT-2 FOOTER*/
