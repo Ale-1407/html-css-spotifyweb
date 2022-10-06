@@ -234,10 +234,8 @@ h2{
 }
 
 /* CONT-2 FOOTER*/
-
 /* CONTENITORE SINISTRA*/
 .cont-left{
-    border: 1px solid red;
     flex-basis: 15%;
     justify-content: space-around;
 }
@@ -246,21 +244,41 @@ h2{
 
 .album{
     flex-basis: 20%;
-    background-color: aqua;
+    margin: auto;
+}
+
+.album img{
+    height: 40px;
 }
 
 /* album titolo */
 
 .album-title{
     flex-basis: 50%;
-    background-color: aquamarine;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.album-title :first-child{
+    color: white;
+}
+
+.album-title p{
+    color: #4e555b;
 }
 
 /* album icone */
 
 .album-icons{
     flex-basis: 20%;
-    background-color: azure;
+    color: #4e555b;
+    margin: auto;
+}
+
+.fa-regular{
+    padding: 2px;
 }
 
 /* CONTENITORE CENTRALE */
