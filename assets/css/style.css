@@ -92,6 +92,7 @@
 .container-cards-music{
     margin: 15px;
 }
+ /* SEZIONE RECENTLY PLAYED*/
 
 .recently-played{
     padding: 10px;
@@ -115,6 +116,24 @@ h2{
     width: 100%;
 }
 
+.box-text{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-text p{
+    color: #4e555b;
+    padding-top: 5px;
+    font-weight: bold;
+
+}
+
+.creato-per p{
+    color: #4e555b;
+    font-weight: bold;
+    padding-top: 10px;
+}
 
 /* SIDEBAR */
 
