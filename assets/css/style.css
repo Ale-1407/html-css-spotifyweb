@@ -27,8 +27,9 @@
     justify-content: space-between;
 }
 
+
 .sidebar{
-    flex-basis: 15%;
+    flex-basis: 20%;
     background-color: #000000;
     color: #4e555b;
     line-height: 30px;
@@ -41,13 +42,24 @@
     min-width: 200px;
 }
 
+@media screen and (max-width: 425px) {
+    .sidebar{
+        min-width: 150px;
+        max-width: 300px;
+    }
+
+    .main{
+        max-width: 800px;
+    }
+}
+
 .sidebar span{
     display: block;
     font-size: 14px;
 }
 
 .main{
-    flex-basis: 85%;
+    flex-basis: 80%;
     background-color: #141922;
     overflow-y: auto;
 }
@@ -119,6 +131,41 @@ h2{
 @media screen and (max-width: 768px){
     .cards-box{
         width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 424px){
+    .header{
+        width: calc(100% - 50px);
+        padding-right: 100px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .but button{
+        padding: 12px 25px;
+        font-size: 10px;
+    }
+    
+    .nav-main{
+        margin-top: 90px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+    
+    .recently-played{
+        padding: 5px;
+    }
+    
+    .cards{
+        margin: 20px 0;
+    }
+    
+    .cards-box{
+        width: calc(100% / 2);
+        padding-right: 5px;
     }
 }
 
@@ -254,6 +301,7 @@ h2{
 .cont-left{
     flex-basis: 15%;
     justify-content: space-between;
+    gap: 5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -275,6 +323,7 @@ h2{
         flex-basis: 25%;
     }
 }
+
 
 /* album */
 
@@ -383,7 +432,7 @@ h2{
 
 
 .time-right{
-    width: 50%;
+    width: 70%;
     height: 4px;
     border-radius: 4px;
     background-color: #4e555b;
