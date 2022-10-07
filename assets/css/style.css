@@ -33,11 +33,12 @@
     color: #4e555b;
     line-height: 30px;
     padding-left: 15px;
-    overflow-y: auto;
     height: 100%;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 200px;
 }
 
 .sidebar span{
@@ -122,6 +123,7 @@ h2{
     color: white;
     text-align: center;
     padding-top: 10px;
+    font-size: 13px;
 }
 
 .box-text p{
@@ -178,6 +180,7 @@ h2{
 .playlist{
     padding-top: 20px;
 }
+
 
 .playlist :first-child{
     color: white;
@@ -237,13 +240,13 @@ h2{
 /* CONTENITORE SINISTRA*/
 .cont-left{
     flex-basis: 15%;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 /* album */
 
 .album{
-    flex-basis: 20%;
     margin: auto;
 }
 
@@ -254,11 +257,9 @@ h2{
 /* album titolo */
 
 .album-title{
-    flex-basis: 50%;
     font-size: 12px;
     font-weight: bold;
     margin: auto;
-
 }
 
 .album-title :first-child{
@@ -272,13 +273,12 @@ h2{
 /* album icone */
 
 .album-icons{
-    flex-basis: 20%;
     color: #4e555b;
     margin: auto;
 }
 
 .fa-regular{
-    padding: 2px;
+    padding: 3px;
 }
 
 /* CONTENITORE CENTRALE */
@@ -357,16 +357,31 @@ h2{
     margin: auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .cont-left{
+        flex-basis: 20%;
+    }
+
+    .cont-right{
+        flex-basis: 20%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cont-left{
+        flex-basis: 25%;
+    }
+
+    .cont-right{
+        flex-basis: 25%;
+    }
+}
 
 @media  screen and (max-width: 425px) {
     
 }
 
-@media screen and (max-width: 768px) {
-    
-}
 
-@media screen and (max-width: 1024px) {
-    
-}
+
 
