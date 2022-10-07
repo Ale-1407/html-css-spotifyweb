@@ -90,7 +90,6 @@
     font-weight: bold;
 }
 
-
 /* CONTAINER CARSDS MUSIC*/
 
 .container-cards-music{
@@ -118,7 +117,6 @@ h2{
 }
 
 @media screen and (max-width: 768px){
-    
     .cards-box{
         width: calc(100% / 4);
     }
@@ -250,7 +248,26 @@ h2{
 .cont-left{
     flex-basis: 15%;
     justify-content: space-between;
-    padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cont-left{
+        flex-basis: 20%;
+    }
+
+    .cont-right{
+        flex-basis: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cont-left{
+        flex-basis: 25%;
+    }
+
+    .cont-right{
+        flex-basis: 25%;
+    }
 }
 
 /* album */
@@ -366,19 +383,6 @@ h2{
     margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
-    
-   
-}
-
-@media screen and (max-width: 768px) {
-   
-    
-}
-
-@media  screen and (max-width: 425px) {
-    
-}
 
 
 
