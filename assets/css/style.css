@@ -50,7 +50,6 @@
     flex-basis: 85%;
     background-color: #141922;
     overflow-y: auto;
-    
 }
 /* HEADER */
 
@@ -81,6 +80,7 @@
 .nav-main{
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .nav-main span{
@@ -89,6 +89,7 @@
     font-size: 14px;
     font-weight: bold;
 }
+
 
 /* CONTAINER CARSDS MUSIC*/
 
@@ -108,11 +109,19 @@ h2{
 
 .cards{
     margin: 30px 0;
+    flex-wrap: wrap;
 }
 
 .cards-box{
     width: calc(100% / 6);
     padding-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .cards-box{
+        width: calc(100% / 4);
+    }
 }
 
 .box-img img{
@@ -358,24 +367,13 @@ h2{
 }
 
 @media screen and (max-width: 1024px) {
-    .cont-left{
-        flex-basis: 20%;
-    }
-
-    .cont-right{
-        flex-basis: 20%;
-    }
-
+    
+   
 }
 
 @media screen and (max-width: 768px) {
-    .cont-left{
-        flex-basis: 25%;
-    }
-
-    .cont-right{
-        flex-basis: 25%;
-    }
+   
+    
 }
 
 @media  screen and (max-width: 425px) {
