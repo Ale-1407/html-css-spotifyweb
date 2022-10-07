@@ -366,11 +366,11 @@ h2{
 .menu-icone-right{
     justify-content: space-between;
     color: white;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 .menu-icone-right .fa-solid{
-    padding: 8px;
+    padding: 5px;
     font-size: 12px;
 }
 
