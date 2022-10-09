@@ -365,7 +365,7 @@ h2{
 /* CONT-2 FOOTER*/
 /* CONTENITORE SINISTRA*/
 .cont-left{
-    flex-basis: 15%;
+    width: 15%;
     justify-content: space-between;
     gap: 5px;
 }
@@ -430,7 +430,7 @@ h2{
 
 /* CONTENITORE CENTRALE */
 .cont-centr{
-    flex-basis: 40%;
+    width: 40%;
     color: white;
 }
 
@@ -479,6 +479,9 @@ h2{
 
 
 /* CONTENITORE DESTRA */
+.cont-right{
+    width: 15%;
+}
 /* ICONS CONTENITORE DESTRA*/
 .menu-icone-right{
     justify-content: space-between;
