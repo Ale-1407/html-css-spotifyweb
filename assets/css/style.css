@@ -45,7 +45,7 @@
 @media screen and (max-width: 425px) {
     .sidebar{
         min-width: 150px;
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .main{
@@ -67,7 +67,7 @@
 
 .header{
     padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     position: sticky;
     top: 0;
@@ -135,6 +135,7 @@ h2{
 }
 
 @media screen and (max-width: 424px){
+    
     .header{
         width: calc(100% - 50px);
         padding-right: 100px;
@@ -172,6 +173,42 @@ h2{
         padding-right: 5px;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .sidebar{
+        min-width: 40px;
+        max-width: 150px;
+    }
+
+   .main{
+    flex-basis: 90%;
+   }
+
+    .header{
+        width: calc(100% - 20px);
+        padding-right: 60px;
+    }
+
+    .playlist,.installa-text,.user-name,.grey-line,.menu-text{
+        display: none;
+    }
+
+    .user-profile{
+        margin-top: 10px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-tel{
+        display: block;
+        width: 70%;
+        padding-top: 20px;
+    }
+    
+}
+
 
 .box-img img{
     width: 100%;
@@ -224,7 +261,27 @@ h2{
 
 .logo{
     width: 70%;
-    padding: 15px 15px 15px 0;
+    padding-top: 20px;
+}
+
+.logo-tel{
+    display: none;
+}
+
+@media screen and (max-width: 376px) {
+    .logo{
+        display: none;
+    }
+
+    .logo-tel{
+        display: block;
+        width: 70%;
+        padding-top: 20px;
+    }
+
+    .logo-tel img{
+        height: 28px;
+    }
 }
 
 /* MENU */
@@ -238,6 +295,11 @@ h2{
 .menu :first-child{
     color: white;
 }
+
+.menu{
+    display: block;
+}
+
 
 /* PLAYLIST */
 
@@ -274,7 +336,7 @@ h2{
     height: 1px;
     width: 90%;
     background-color: #4e555b;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 
@@ -283,7 +345,7 @@ h2{
 }
 
 .user{
-    padding-left: 5px;
+    
     align-items: center;
 }
 
@@ -417,10 +479,6 @@ h2{
 
 
 /* CONTENITORE DESTRA */
-.cont-right{
-    flex-basis: 15%;
-}
-
 /* ICONS CONTENITORE DESTRA*/
 .menu-icone-right{
     justify-content: space-between;
@@ -443,5 +501,13 @@ h2{
     margin: auto;
 }
 
+@media screen and (max-width: 376px) {
+    .album-icons,.time-left-right{
+        display: none;
+    }
 
+    .time-centr{
+        margin-top: 10px;
+    }
+}
 
