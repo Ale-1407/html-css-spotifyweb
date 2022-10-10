@@ -528,6 +528,10 @@ h2{
     border-radius: 4px;
 }
 
+.time-int:hover{
+    background-color: greenyellow;
+}
+
 
 /* CONTENITORE DESTRA */
 .cont-right{
