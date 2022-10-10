@@ -56,6 +56,22 @@
 .sidebar span{
     display: block;
     font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar h4:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.playlist .fa-square-plus:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .main{
@@ -84,7 +100,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
     padding: 12px 35px;
+}
 
+button:hover{
+    cursor: pointer;
+    padding: 13px 38px;
 }
 
 /* NAV MAIN */
@@ -100,6 +120,11 @@
     color: #4e555b;
     font-size: 14px;
     font-weight: bold;
+}
+
+.nav-main span:hover{
+    color: white;
+    cursor: pointer;
 }
 
 /* CONTAINER CARSDS MUSIC*/
@@ -292,12 +317,17 @@ h2{
     vertical-align: middle;
 }
 
-.menu :first-child{
-    color: white;
+.menu-text a{
+    text-decoration: none;
+    color: #4e555b;
 }
 
 .menu{
     display: block;
+}
+
+#col-white{
+    color: white;
 }
 
 
@@ -363,6 +393,19 @@ h2{
 }
 
 /* CONT-2 FOOTER*/
+.cont-2 span:hover{
+    color: white;
+    cursor: pointer;
+}
+.cont-2 p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.p2:hover{
+    color: white;
+    text-decoration: underline;
+}
 /* CONTENITORE SINISTRA*/
 .cont-left{
     width: 15%;
@@ -449,6 +492,14 @@ h2{
 .menu-icone-centr .fa-regular{
     font-size: 25px;
     padding: 5px;
+}
+
+.menu-icone-centr .fa-solid:hover{
+    font-size: 16px;
+}
+
+.menu-icone-centr .fa-regular:hover{
+    font-size: 26px;
 }
 
 /* DOWN */
